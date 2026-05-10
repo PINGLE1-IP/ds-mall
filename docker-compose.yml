@@ -6,7 +6,7 @@ services:
     container_name: ds-mall-mysql
     restart: unless-stopped
     environment:
-      MYSQL_ROOT_PASSWORD: root123456
+      MYSQL_ROOT_PASSWORD: your-nameyour-password
       MYSQL_DATABASE: ds_mall
       TZ: Asia/Shanghai
     ports:
